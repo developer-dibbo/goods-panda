@@ -1,0 +1,638 @@
+* {
+    font-family: Inter, Poppins;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: white;
+    margin-top: -20px;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/*---------header section-------*/
+
+#header {
+    max-width: 100%;
+}
+
+#header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+#menu {
+    cursor: pointer;
+}
+
+/*header section end*/
+
+
+
+/*--------hero section------*/
+
+#hero {
+
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin: auto;
+    background-color: #FEEAE9;
+    border-radius: 20px;
+}
+
+#hero-discribtion h2 {
+    font-family: Poppins;
+    font-size: 56px;
+    line-height: 56px;
+}
+
+#heading {
+    color: #FF136F;
+
+}
+
+#hero-discribtion p {
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+#hero-discribtion button {
+
+    background-color: #FF136F;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/*hero section end*/
+
+/*--------Categories section------*/
+
+
+#categories {
+
+    max-width: 100%;
+}
+
+#categories-con {
+
+    padding: auto;
+    margin: auto;
+
+}
+
+#cat-heading {
+
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+#box-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+#Watch-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    min-height: 120px;
+    padding: 0 50px;
+    border-radius: 10px;
+}
+
+#box-wrapper img {
+
+    max-width: 70px;
+    min-height: 70px;
+}
+
+#Watch-box h4 {
+
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
+
+
+#Bag-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    min-height: 120px;
+    padding: 0 50px;
+    border-radius: 10px;
+}
+
+#Bag-box h4 {
+
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
+
+#Shoes-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    min-height: 120px;
+    padding: 0 50px;
+    border-radius: 10px;
+}
+
+#Shoes-box h4 {
+
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
+
+#Watch-box {
+    background-color: #FF9C35;
+}
+
+#Bag-box {
+    background-color: #FF136F;
+}
+
+#Shoes-box {
+    background-color: #3F07F8;
+}
+
+
+/*catagori section end*/
+
+/*--------Shoes section------*/
+
+#Shoes {
+
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+#sho-heading {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#Shoes-wrapper {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#Shoes-content {
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+}
+
+
+
+#Dart {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    min-height: 500px;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#Pump {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    min-height: 500px;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#Terrain {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    min-height: 500px;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#Dart h4 {
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: semi-bold;
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+#Dart p {
+
+    text-align: center;
+    padding: 10px;
+}
+
+#Dart button {
+    display: block;
+    margin: 20px auto;
+    background-color: black;
+    margin-top: auto;
+    align-self: center;
+    color: white;
+    padding: 10px 40px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+
+#Pump h4 {
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: semi-bold;
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+#Pump p {
+
+    text-align: center;
+    padding: 10px;
+}
+
+#Pump button {
+    display: block;
+    margin: 20px auto;
+    background-color: black;
+    margin-top: auto;
+    align-self: center;
+    color: white;
+    padding: 10px 40px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+
+#Terrain h4 {
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: semi-bold;
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+#Terrain p {
+
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+#Terrain button {
+    display: block;
+    margin: 20px auto;
+    background-color: black;
+    margin-top: auto;
+    align-self: center;
+    color: white;
+    padding: 10px 40px;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+
+#footer {
+
+    max-width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#footer-content {
+
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    justify-content: center;
+    background-color: #FFF2F1;
+}
+
+#footer h2 {
+
+    font-family: Poppins;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+}
+
+#footer p {
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#form form {
+    display: flex;
+}
+
+
+#form input[type="text"] {
+    padding: 12px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+
+#form input[type="button"] {
+    padding: 20px 80px;
+    border: none;
+    background-color: #FF136F;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive device*/
+
+/*Laptop Device 993px-1200px*/
+@media screen and (max-width:1200px) {
+
+    #hero-discribtion h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    #hero-discribtion p {
+
+        font-size: 12px;
+    }
+
+    #hero-image {
+        width: 400px;
+    }
+
+    /*hero end*/
+
+
+}
+
+
+
+/*Tablet Device 641px-992px*/
+@media screen and (max-width:992px) {
+
+    #hero-content {
+
+        flex-direction: column;
+        align-content: center;
+
+    }
+
+    #hero-discribtion {
+        text-align: center;
+    }
+
+    #hero-discribtion h2 {
+
+        text-align: center;
+    }
+
+    #hero-discribtion p {
+
+        text-align: center;
+    }
+
+    #hero-discribtion button {
+
+        display: flex;
+        align-items: center;
+    }
+
+    #hero-discribtion button {
+        display: block;
+        margin: 20px auto;
+    }
+
+    #Dart {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    #Pump {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    #Terrain {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    #footer-content h2 {
+        font-size: 36px;
+
+    }
+}
+
+
+/*mobile device 320px-640px*/
+@media screen and (max-width:640px) {
+    #header-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #hero-content {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #hero-discribtion h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    #hero-discribtion p {
+        font-size: 13px;
+    }
+
+    #hero-image img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* ========= CATEGORIES ========= */
+    #box-wrapper {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #Watch-box,
+    #Bag-box,
+    #Shoes-box {
+        width: 100%;
+        padding: 15px;
+        justify-content: space-between;
+    }
+
+    #Watch-box h4,
+    #Bag-box h4,
+    #Shoes-box h4 {
+        font-size: 18px;
+    }
+
+    /* ========= SHOES / CARDS ========= */
+    #Dart,
+    #Pump,
+    #Terrain {
+        flex: 1 1 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    /* ========= FOOTER ========= */
+    #footer h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    #footer p {
+        font-size: 14px;
+    }
+
+    #form form {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    #form input[type="text"] {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    #form input[type="button"] {
+        width: 100%;
+        padding: 12px;
+        border-radius: 10px;
+    }
+
+    .container {
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    /*header end*/
+}
