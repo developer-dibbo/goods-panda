@@ -31,4 +31,4 @@ This project was created to practice and improve front-end web development skill
 
 👨‍💻 Author
 
-Developed by Himansu
+Developed by Developer Dibbo
